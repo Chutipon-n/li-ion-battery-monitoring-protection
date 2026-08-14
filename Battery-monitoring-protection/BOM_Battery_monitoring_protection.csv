@@ -1,0 +1,21 @@
+Item,Category,Designator,Component,Specification,Quantity,Note
+1,PCB,"12V, V1-V4",2 pin terminal,,5,
+2,PCB,"R1, R5-R8",Resistor,10 k?,5,Voltage divider
+3,PCB,R2,Resistor,20 k?,1,Voltage divider
+4,PCB,R3,Resistor,30 k?,1,Voltage divider
+5,PCB,R4,Resistor,40 k?,1,Voltage divider
+6,PCB,R9,Resistor,47 k?,1,Voltage divider
+7,PCB,R10,NTC Thermister,15 k?,1,Temperature sensing
+8,PCB,C1-C4,Capacitor,1 µF,4,RC filter
+9,PCB,U1,Op-Amp,LM324N,1,Buffer
+10,External,,Arduino Mega 2560,MCU,1,Main controller
+11,External,,AC Adapter,"12V, 1.5A",1,Power source
+12,External,,OLED,"1.3"", I2C",1,Display
+13,External,,Relay,"Active LOW 5V
+2 Channel isolation control 250V/10A",2,Switching
+14,External,,Buck Converter,LM2596,1,Power supply
+15,External,,Switch,6A 250V SPST ON-OFF Rocker Switch,1,Power switch
+16,External,,Switch,Push Button Switch ,8,Mode selection switch
+17,External,,Female Banana Socket,"4 mm Connector, Tab Termination",17,Pin connector 
+18,External,,Voltage Busbar Power Distribution,6 ways,1,Power Distribution
+19,External,,Voltage Busbar Power Distribution,12 ways,1,Power Distribution
